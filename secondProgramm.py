@@ -13,5 +13,4 @@ year_sum = sum(month_sums.values())
 
 for month in range(1, 13):
     print(f"Месяц {month}: {month_sums[month]}")
-    
 print(f"Всего за год: {year_sum}")
